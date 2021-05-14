@@ -4,75 +4,30 @@
 
 Este repositório contém os jupyter notebooks desenvolvidos durante a [Imersão Dados 3](https://www.alura.com.br/imersao-dados) promovida pela Alura.  
 
-Os dados usados na imersão são provenientes de um desafio proposto no site do [kangle](https://www.kaggle.com/c/lish-moa/overview/description).
+Os dados usados na imersão são provenientes de um desafio proposto no site do [kaggle](https://www.kaggle.com/c/lish-moa/overview/description).
 
 ## Tecnologias utilizadas
 
-<table style="width:100%;background-color:rgb(8 20 27);">
-<tr>
-<td style="text-align:center">
-<img src="__docs/logo-python-mobile.svg" alt="Python" />
-</td>
-<td style="text-align:center">
-<img src="__docs/logo-pandas-mobile.svg" alt="Pandas" />
-</td>
-<td style="text-align:center">
-<img src="__docs/logo-jupyter-mobile.svg" alt="Juypter" />
-</td>
-</tr>
-</table>
-<table style="width:100%;background-color:rgb(8 20 27);">
-<tr>
-<td style="text-align:center">
-<img src="__docs/logo-colab-mobile.png" alt="Colab" />
-</td>
-<td style="text-align:center">
-<img src="__docs/logo-scikit-learn-mobile.svg" alt="scikit-learn" />
-</td>
-</tr>
-</table>
+* Python;
+* Pandas;
+* Jupyter Notebooks;
+* Google Colab;
+* Scikit-learn.
 
 ## Professores
 
-<table style="width:100%;">
-<tr>
-<td style="text-align:center">
-<img src="https://www.alura.com.br/assets/img/imersoes/instrutores/guilherme_silveira.1616501197.jpg" alt="Guilherme Silveira" style="border-radius:100%;width:80px;height:80px;">
-</td>
-<td style="text-align:center">
-<img src="https://www.alura.com.br/assets/img/imersoes/instrutores/vanessa_leiko.1618604914.jpeg" alt="Me. Vanessa Leiko" style="border-radius:100%;width:80px;height:80px;"/>
-</td>
-<td style="text-align:center">
-<img src="https://www.alura.com.br/assets/img/imersoes/instrutores/thiago_santos.1616501197.png" alt="Thiago Gonçalves" style="border-radius:100%;width:80px;height:80px;"/>
-</td>
-</tr>
-<tr>
-<td style="text-align:center;font-weight:bold;">Guilherme Silveira
-</td>
-<td style="text-align:center;font-weight:bold;">Vanessa Leiko
-</td>
-<td style="text-align:center;font-weight:bold;">Thiago Gonçalves
-</td></tr>
-<tr>
-<td style="text-align:center">
-<a href="https://www.linkedin.com/in/guilhermeazevedosilveira/"><img src="__docs/logo-linkedin.svg" alt="Linkedin" /></a>
-</td>
-<td style="text-align:center">
-<a href="https://www.linkedin.com/in/vanessa-leiko-oikawa-cardoso"><img src="__docs/logo-linkedin.svg" alt="Linkedin" /></a>
-</td>
-<td style="text-align:center">
-<a href="https://www.linkedin.com/in/thiago-gon%C3%A7alves-santos/"><img src="__docs/logo-linkedin.svg" alt="Linkedin" /></a>
-</td></tr>
-</table>
+- [Guilherme Silveira](https://www.linkedin.com/in/guilhermeazevedosilveira/)
+- [Vanessa Leiko](https://www.linkedin.com/in/vanessa-leiko-oikawa-cardoso)
+- [Thiago Gonçalves](https://www.linkedin.com/in/thiago-gon%C3%A7alves-santos/)
 
 ## Conteúdos desenvolvidos
 
 Resumidamente, os seguintes conteúdos foram desenvolvidos:  
 - Análise exploratória dos dados;
-- Visualização da distribuição dos dados ;
+- Visualização da distribuição dos dados;
 - Implementação de modelos de machine learning. 
 
-## Organização das pastas:
+## Organização das pastas
 
 * **aulas**: Os notebooks de cada aula com as respostas dos desafios propostos em cada aula;
 
@@ -89,8 +44,7 @@ Resumidamente, os seguintes conteúdos foram desenvolvidos:
 - [Laboratório de Inovação da Universidade de Harvard](https://lish.harvard.edu/)
 - [Site da Matplotlib](https://matplotlib.org/)
 - [Site da Seaborn](https://seaborn.pydata.org/)
-- [O que é um histograma?](https://www.alura.com.br/artigos/o-que-e-um-histograma?utm_source=gnarus&utm_medium=timeline
-)
+- [O que é um histograma?](https://www.alura.com.br/artigos/o-que-e-um-histograma?utm_source=gnarus&utm_medium=timeline)
 - [Ampliando a análise com o Describe](https://www.alura.com.br/artigos/ampliando-a-analise-com-describe)
 - [Melhorando a análise com o Boxplot](https://www.alura.com.br/artigos/melhorando-a-analise-com-o-boxplot)
 - [Correlações curiosas](https://www.tylervigen.com/spurious-correlations)
