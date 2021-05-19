@@ -4,7 +4,9 @@
 
 Este repositório contém os jupyter notebooks desenvolvidos durante a [Imersão Dados 3](https://www.alura.com.br/imersao-dados) promovida pela Alura.  
 
-Os dados usados na imersão são provenientes de um desafio proposto no site do [kaggle](https://www.kaggle.com/c/lish-moa/overview/description).
+Os dados usados na imersão são provenientes de um desafio proposto no site do [kaggle](https://www.kaggle.com/c/lish-moa/overview/description).  
+
+[Clique aqui](https://fbnnd1.github.io/alura-imersao-dados3) para acessar a versão web do documento.
 
 ## Tecnologias utilizadas
 
