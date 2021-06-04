@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(8, 20, 27);
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    max-width:800px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body section:last-child {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+a, a:hover {
+    color: aqua;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.teachers, .teacher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teacher {
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.teacher > * {
+    margin-bottom: 10px;
+}
+
+.teacher > img:first-child {
+    border-radius:100%;
+    width:80px;
+    height:80px;
+}
+
+.teacher p {
+    text-align: center;
+}
+
+.teacher-name {
+    font-weight: bold;
+}
+
+.tecnologies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tecnology {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+@media (min-width: 520px) {
+    .tecnologies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+    .tecnology:nth-child(5) {
+        transform: translateX(50%);
+    }
+}
+
+@media (min-width: 620px) {
+    h2 {
+        text-align: left;
+    }
+
+    .teachers {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .tecnologies {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .tecnology:nth-child(4) {
+        transform: translateX(50%);
+     }
+}

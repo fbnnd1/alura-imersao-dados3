@@ -4,49 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Leiame</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background-color: rgb(8 20 27);
-            font-family: 'Courier New', Courier, monospace;
-            color: whitesmoke;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
-        main {
-            max-width:800px;
-            min-width: 300px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 80vw;
-        }
-        h1 {
-            text-align: center;
-        }
-        section {
-            margin-top: 10px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        body section:last-child {
-            margin-bottom: 20px;
-        }
-        h2 {
-            margin: 20px 0;
-            text-align: left;
-        }
-        a, a:hover {
-            color: aqua;
-        }
-        li {
-            margin-left: 20px;
-        }
+        
     </style>
 </head>
 <body>
@@ -68,6 +29,7 @@
         </section>
         <section>
             <h2>Tecnologias Utilizadas</h2>
+            <!--
             <table style="width:100%;background-color:rgb(8 20 27);">
                 <tr>
                     <td style="text-align:center">
@@ -100,10 +62,60 @@
                         </a>
                     </td>
                 </tr>
-            </table>            
+            </table> 
+            -->
+            <div class="tecnologies">
+                <div class="tecnology">
+                    <a href="https://www.python.org" target="_blank">
+                        <img src="imagens/logo-python-mobile.svg" alt="Python">
+                    </a>
+                </div>
+                <div class="tecnology">
+                    <a href="https://jupyter.org" target="_blank">
+                        <img src="imagens/logo-jupyter-mobile.svg" alt="Juypter" />
+                    </a>
+                </div>
+                <div class="tecnology">
+                    <a href="https://scikit-learn.org/stable/" target="_blank">
+                        <img src="imagens/logo-scikit-learn-mobile.svg" alt="scikit-learn" />
+                    </a>
+                </div>
+                <div class="tecnology">
+                    <a href="https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index" target="_blank">
+                        <img src="imagens/logo-colab-mobile.png" alt="Google Colab" />
+                    </a>
+                </div>
+                <div class="tecnology">
+                    <a href="https://pandas.pydata.org" target="_blank">
+                        <img src="imagens/logo-pandas-mobile.svg" alt="Pandas">
+                    </a>
+                </div>
+            </div>          
         </section>
         <section>
             <h2>Professores</h2>
+            <div class="teachers">
+                <div class="teacher">
+                    <img src="https://www.alura.com.br/assets/img/imersoes/instrutores/guilherme_silveira.1616501197.jpg" alt="Guilherme Silveira" />
+                    <p class="teacher-name">Guilherme Silveira</p>
+                    <p>
+                        <a target="_blank" href="https://www.linkedin.com/in/guilhermeazevedosilveira/"><img src="imagens/logo-linkedin.svg" alt="Linkedin" /></a>
+                    </p>
+                </div>
+                <div class="teacher">
+                    <img src="https://www.alura.com.br/assets/img/imersoes/instrutores/vanessa_leiko.1618604914.jpeg" alt="Me. Vanessa Leiko" />
+                    <p class="teacher-name">Vanessa Leiko</p>
+                    <p><a target="_blank" href="https://www.linkedin.com/in/vanessa-leiko-oikawa-cardoso"><img src="imagens/logo-linkedin.svg" alt="Linkedin" /></a></p>
+                </div>
+                <div class="teacher">
+                    <img src="https://www.alura.com.br/assets/img/imersoes/instrutores/thiago_santos.1616501197.png" alt="Thiago Gonçalves" />
+                    <p class="teacher-name">Thiago Gonçalves</p>
+                    <p><a target="_blank" href="https://www.linkedin.com/in/thiago-gon%C3%A7alves-santos/"><img src="imagens/logo-linkedin.svg" alt="Linkedin" /></a></p>
+                </div>
+
+            </div>
+            
+            <!--
             <table style="width:100%;">
                 <tr>
                     <td style="text-align:center">
@@ -132,7 +144,8 @@
                         <a target="_blank" href="https://www.linkedin.com/in/thiago-gon%C3%A7alves-santos/"><img src="imagens/logo-linkedin.svg" alt="Linkedin" /></a>
                     </td>
                 </tr>
-            </table>            
+            </table>
+            -->            
         </section>
         <section>
             <h2>Conteúdos desenvolvidos</h2>
