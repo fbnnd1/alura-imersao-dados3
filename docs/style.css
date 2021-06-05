@@ -78,14 +78,14 @@ li {
     font-weight: bold;
 }
 
-.tecnologies {
+.technologies {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.tecnology {
+.technology {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,13 +93,13 @@ li {
 }
 
 @media (min-width: 520px) {
-    .tecnologies {
+    .technologies {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         gap: 10px;
     }
-    .tecnology:nth-child(5) {
+    .technology:nth-child(5) {
         transform: translateX(50%);
     }
 }
@@ -115,14 +115,14 @@ li {
         gap: 10px;
     }
 
-    .tecnologies {
+    .technologies {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr 1fr;
         gap: 10px;
     }
 
-    .tecnology:nth-child(4) {
+    .technology:nth-child(4) {
         transform: translateX(50%);
      }
 }
